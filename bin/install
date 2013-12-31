@@ -1,5 +1,5 @@
 #!/bin/bash -eu
-/var/lib/openshift/51d2b2d38219340a57000007/TEST_DIR
+
 # Create additional directories required by PERL and httpd
 ln -s /usr/lib64/httpd/modules $OPENSHIFT_PERL_DIR
 ln -s /etc/httpd/conf/magic $OPENSHIFT_PERL_DIR/etc/magic
